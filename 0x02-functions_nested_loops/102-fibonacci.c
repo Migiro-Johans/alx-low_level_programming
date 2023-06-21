@@ -17,7 +17,7 @@ int main(void)
 		else
 		{
 			k += q;
-			j = k - q;
+			q = k - q;
 			printf(", %ld", k);
 		}
 
